@@ -9,7 +9,7 @@ This program takes in the Html of an organization's employee page on LinkedIn, p
 # Installation
 `git clone https://github.com/ACK-J/LinkHub.git`
 
-`cd LinkHub && pip3 install -r requirements.txt && cd ..`
+`cd LinkHub && pip3 install -r requirements.txt && chmod +x gitemail.sh && cd ..`
 
 `git clone https://github.com/dxa4481/truffleHog.git`
 
@@ -98,3 +98,7 @@ Lastly, give two search terms that should be used to look for within each GitHub
 
 ## Run the program!
 `python3 linkhub.py`
+
+## Notes
+If you want to find the email address of a GitHub user you can use the following command and substitute the API key and the username.
+`GH_EMAIL_TOKEN=01234567890123456789 ./gitemail.sh ACK-J`
