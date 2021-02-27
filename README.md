@@ -105,3 +105,6 @@ Lastly, give two search terms that should be used to look for within each GitHub
 If you want to find the email address of a GitHub user you can use the following command and substitute the API key and the username.
 
 `GH_EMAIL_TOKEN=01234567890123456789 ./gitemail.sh ACK-J`
+
+## Thoughts
+What makes this technique possible is the over-abundance of specific user-data LinkedIn is willing to share to anyone with an account. LinkedIn most of the time will let you see over 1,000 employee accounts before it cuts you off. There are cases where you will not be able to see the employees LinkedIn account, this is because you are most likely not within 3+ connections. You can simply fix this by connecting with a few people at a single company. A good privacy option which would stop this tecnique is allowing users to only share their profile with their imediate connections and making anyone else have to request access. 
