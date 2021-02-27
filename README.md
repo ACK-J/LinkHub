@@ -101,4 +101,5 @@ Lastly, give two search terms that should be used to look for within each GitHub
 
 ## Notes
 If you want to find the email address of a GitHub user you can use the following command and substitute the API key and the username.
+
 `GH_EMAIL_TOKEN=01234567890123456789 ./gitemail.sh ACK-J`
