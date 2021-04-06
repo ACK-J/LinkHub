@@ -43,7 +43,7 @@ For the next part, you need to have a mouse, you can do it without one but it ma
 <kbd><img src="https://user-images.githubusercontent.com/60232273/109348721-eb8d1b00-7842-11eb-85b4-378a332047a3.png" /></kbd>
 </p>
 
-`Clicking the center button on a mouse activates "auto-scrolling" where you can move your cursor on the screen and the page will scroll in that direction. This comes in handy since we are going to need to scroll down for a while to see as many employees as possible.`
+Clicking the center button on a mouse activates "auto-scrolling" where you can move your cursor on the screen and the page will scroll in that direction. This comes in handy since we are going to need to scroll down for a while to see as many employees as possible.
 
 <p align="center">
 <kbd><img src="https://user-images.githubusercontent.com/60232273/109350392-6c4d1680-7845-11eb-87d3-606603f9fc2c.png" width="543" height="421" /></kbd>
@@ -109,7 +109,7 @@ If you want to find the email address of a GitHub user you can use the following
 This program was developed on Ubuntu and using Firefox.
 
 ## Thoughts
-What makes this technique possible is the over-abundance of specific user-data LinkedIn is willing to share to anyone with an account. LinkedIn most of the time will let you see over 1,000 employee accounts before it cuts you off. There are cases where you will not be able to see the employees LinkedIn account, this is because you are most likely not within 3+ connections. You can simply fix this by connecting with a few people at a single company. A good privacy option which would stop this tecnique is allowing users to only share their profile with their imediate connections and making anyone else have to request access. 
+What makes this technique possible is the over-abundance of specific user data LinkedIn is willing to share with anyone with an account. LinkedIn most of the time will let you see over 1,000 employee accounts before it cuts you off. There are cases where you will not be able to see the employee's LinkedIn account, this is because you are most likely not within 3+ connections. You can simply fix this by connecting with a few people at a single company. A good privacy option that would stop this technique is allowing users to only share their profile with their immediate connections and making anyone else have to request access. 
 
 ## Wishlist
 - Add a docker compose file
