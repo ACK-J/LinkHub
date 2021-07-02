@@ -302,8 +302,7 @@ if __name__ == '__main__':
     unique_linkedin_usernames = find_unique_usernames(linkedin_usernames)
     print()
     print()
-    #
-    #find_emails_from_github_username(unique_linkedin_usernames)
+    find_emails_from_github_username(unique_linkedin_usernames)
     print()
     print()
 
