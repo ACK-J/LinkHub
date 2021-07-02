@@ -35,6 +35,7 @@ FILE_NAME = "linkedin_html_file.html" # CHANGE ME
 COMPANY_NAME = "company name"  # CHANGE ME
 COMPANY_NAME2 = "subsidiary"  # CHANGE ME
 
+
 # Usage: python3 linkhub.py
 
 ################ NO NEED TO CHANGE ANYTHING BELOW ################
@@ -180,13 +181,13 @@ def get_usernames_from_html(html_file: str) -> list:
     if html_file != '' and os.path.isfile(html_file):
         f = open(html_file, 'r')
         soup = BeautifulSoup(f, 'html5lib')
-        results = soup.find_all('div', attrs={'class': 'org-people-profile-card'})
+        results = soup.find_all('div', attrs={'class': 'org-people-profile-card__profile-info'})
         print()
         print('LinkedIn Accounts:')
         print()
         for el in results:
             try:
-                link = el.section.div.div.div.a['href']
+                link = el.div.div.a['href']
                 full_link_to_linkedin = 'https://www.linkedin.com' + str(link)
                 print(full_link_to_linkedin)
                 with open('{}.out'.format(FILE_NAME.split('.')[0]), 'a') as fp:
@@ -302,7 +303,7 @@ if __name__ == '__main__':
     print()
     print()
     #
-    find_emails_from_github_username(unique_linkedin_usernames)
+    #find_emails_from_github_username(unique_linkedin_usernames)
     print()
     print()
 
