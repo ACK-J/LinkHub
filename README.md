@@ -11,11 +11,13 @@ This program takes in the Html of an organization's employee page on LinkedIn, p
 
 `cd LinkHub && pip3 install -r requirements.txt && chmod +x gitemail.sh && cd ..`
 
-`sudo apt install jq`
+`sudo apt install jq git`
 
 `git clone https://github.com/dxa4481/truffleHog.git`
 
 `go get github.com/eth0izzle/shhgit`
+
+Now add your Github API key to config.yaml
 
 # Tutorial
 
